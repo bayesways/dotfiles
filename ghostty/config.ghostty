@@ -1,0 +1,45 @@
+# Made in Ghost Lab — https://ghostty.org/docs/config
+# Merge into your existing config; back it up first.
+
+# Typography
+font-family = Fira Code
+font-size = 16
+
+# Colors
+background = #171325
+foreground = #eee6ff
+palette = 0=#29243a
+palette = 1=#ff6b92
+palette = 2=#a6f277
+palette = 3=#ffdb7d
+palette = 4=#8fa7ff
+palette = 5=#d896ff
+palette = 6=#6fe7df
+palette = 7=#eee6ff
+palette = 8=#716784
+palette = 9=#ff91af
+palette = 10=#c0ff99
+palette = 11=#ffe9a6
+palette = 12=#b3bfff
+palette = 13=#e8baff
+palette = 14=#a3fff4
+palette = 15=#ffffff
+
+# Window
+window-padding-x = 14
+window-padding-y = 14
+background-opacity = 0.88
+background-blur = true
+
+# Cursor & mouse
+cursor-color = #d896ff
+cursor-style = block
+cursor-style-blink = true
+# Keep shell integration from overriding the chosen cursor shape.
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+
+# Real cursor smear — download and install ghost-lab-smear.glsl first.
+# Remove these two settings to disable the effect.
+custom-shader = ~/.config/ghostty/shaders/ghost-lab-smear.glsl
+custom-shader-animation = true
